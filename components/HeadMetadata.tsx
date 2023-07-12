@@ -28,7 +28,7 @@ export default function HeadMetadata({ imageID }: HeadMetadataProps) {
       <meta property="og:image:alt" content="Random Image from Lorem Picsum" />
       <meta
         property="og:url"
-        content={`vercel-link/${imageID}`}
+        content={`https://ritabrata-paul-ritabrata-paul.vercel.app/${imageID}`}
       />
       <meta
         property="og:description"
@@ -49,7 +49,7 @@ export default function HeadMetadata({ imageID }: HeadMetadataProps) {
       <meta name="twitter:creator" content="@@RitabrataP81237" />
       <meta
         name="twitter:description"
-        content="RRandom Image Display and Share with React and NextJs."
+        content="Random Image Display and Share with React and NextJs."
       />
 
       {/* WhatsApp */}

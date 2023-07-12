@@ -18,7 +18,7 @@ export default function RandomImage({ imageID }: { imageID: string }) {
         <img
           onClick={() => {
             navigator.clipboard.writeText(
-              `vercel-link/${imageID}`
+              `https://ritabrata-paul-ritabrata-paul.vercel.app/${imageID}`
             );
           }}
           title="Copy Image Link to Clipboard."

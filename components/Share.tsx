@@ -8,7 +8,7 @@ import {
 } from "react-share";
 
 export default function Share({ imageID }: { imageID: string }) {
-  const LINK = `vercel-link/${imageID}`;
+  const LINK = `https://ritabrata-paul-ritabrata-paul.vercel.app/${imageID}`;
 
   return (
     <div className="inline-block m-2">
