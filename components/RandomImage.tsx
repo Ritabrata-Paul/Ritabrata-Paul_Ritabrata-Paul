@@ -24,7 +24,7 @@ export default function RandomImage({ imageID }: { imageID: string }) {
           title="Copy Image Link to Clipboard."
           className="h-auto max-w-xl rounded-lg shadow-xl z-10 absolute bottom-0"
           src={`https://picsum.photos/seed/${imageID}/400.webp`}
-          alt="Random Image from Lorem Picsum"
+          alt="Random Image from picsum photos"
         />
       )}
     </div>

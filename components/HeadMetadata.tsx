@@ -20,12 +20,12 @@ export default function HeadMetadata({ imageID }: HeadMetadataProps) {
       <title>Random Image Display and Share with React and NextJs</title>
 
       {/* Facebook */}
-      <meta property="og:title" content="Random Image from Lorem Picsum" />
+      <meta property="og:title" content="Random Image from picsum photos" />
       <meta
         property="og:image"
         content={`https://picsum.photos/seed/${imageID}/1200/630`}
       />
-      <meta property="og:image:alt" content="Random Image from Lorem Picsum" />
+      <meta property="og:image:alt" content="Random Image from picsum photos" />
       <meta
         property="og:url"
         content={`https://ritabrata-paul-ritabrata-paul.vercel.app/${imageID}`}
@@ -43,7 +43,7 @@ export default function HeadMetadata({ imageID }: HeadMetadataProps) {
       />
       <meta
         property="twitter:image:alt"
-        content="Random Image from Lorem Picsum"
+        content="Random Image from picsum photos"
       />
       <meta name="twitter:title" content="Random Image Display and Share with React and NextJs" />
       <meta name="twitter:creator" content="@@RitabrataP81237" />
